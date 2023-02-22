@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(154, 150, 150);
+    opacity: 0.8;
+}
+nav li{
+    list-style: none;padding: 19px;
+    font-size: 25px;
+    font-family: system-ui;
+    color:black;
+}
+.first nav li:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 28px;
+}
+body{
+    background-image: url('bgImg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content #quote{
+    font-size: 43px;
+    font-family: sans-serif;
+    margin-top: 26vh;
+    margin-left: 10vh;
+    color: rgb(50, 49, 49);
+}
+#horon{
+    width: 91vh;
+}
+.content #code{
+    font-size:35px ;
+    margin-left:22vh ;
+}
+.content #btn{
+    font-size: 24px;
+    margin-left: 31vh;
+    margin-top: 2vh;
+    height: 56px;
+    width: 184px;
+    padding: 8px;
+    border-radius: 22px;
+    background-color: #4c9bda;
+}
+.content #btn:hover{
+    cursor: pointer;
+    background-color: rgb(139, 139, 173);
+}
